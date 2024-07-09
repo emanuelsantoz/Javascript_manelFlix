@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+/* Reset do CSS Padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+html,
+body {
+    min-height: 100vh;
+    /* Altura minima */
+    background-color: black;
+    /* Cor de Fundo */
+    color: white;
+    /* Cor do Texto */
+    position: relative;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 8rem 0;
+}
+
+.container-edicao {
+    display: flex;
+    align-items: center;
+}
+
+.container-edicao a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-edicao i {
+    font-size: 2.2rem;
+    font-weight: 6 00;
+    margin-right: 15px;
+}
+
+.container-perfil p {
+    font-weight: 800;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+}
+
+.container-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-img p {
+    font-weight: 800;
+    margin: auto;
+}
+
+
+/* Main para baixo */
+.swiper, .swiperOnePiece, .swiperDragonBall, .swiperNaruto, .swiperLoki {
+    margin: 1rem 0;
+    padding: 0 17%;
+}
+
+.swiper h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+.swiper-wrapper {
+    margin: 0 0 .5rem 0;
+}
+
+.swiper-slide {
+    margin: 0 .5rem 0 .5rem;
+}
+
+.widthImg {
+    width: 100%;
+    height: 110px;
+}
